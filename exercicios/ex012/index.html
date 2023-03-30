@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu propio servidor</p>
+    <video src="midia/meuvideo.mp4" width="500" controls></video>
+   
+    <!--você pode colocar uma capa no video (thumbnail) usando a tag "poster" e escolhendo uma imagem em sua pasta
+    este também não é o jeito mais recomendado para subir um vídeo em seu site, pois vai gastar todo o pacote de internet do meu cliente
+Antes de mais nada, vamos criar a tag <video> e configurar alguns atributos
+importantes:
+‣ "width" vai indicar a largura que o vídeo vai ter na tela. Nesse exemplo, 600px.
+‣ "poster" configura uma imagem que vai aparecer como uma capa, enquanto o
+visitante não aperta o play para reproduzir o vídeo
+‣ "controls" vai configurar se os controles do vídeo vão aparecer na parte inferior da
+mídia. Por padrão, os controles não aparecerão, mas basta colocar a palavra
+"controls" na tag <video>.
+‣ "autoplay" diz para o navegador se o vídeo vai começar a tocar automaticamente,
+assim que a página for carregada-->
+<h1>Aqui você verá um exemplo de <br> um vídeo que está armazenado no Youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LzgXKw1YnKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
